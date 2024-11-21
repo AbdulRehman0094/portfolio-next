@@ -15,11 +15,10 @@ const geistSans = localFont({
 });
 
 export const metadata = {
-  title: "Abdul Wahab Malik- Data Scientist",
-  description: "Experienced data scientist who builds models that learn and predict.",
-  keywords:
-    "Data Scientist, Computer Vision, Machine Learning , Software Engineer, Python,JS, C#, CSharp, React, Node.js, portfolio",
-  author: "Abdul Wahab Malik",
+  title: "Abdul Rehman- Software Engineer",
+  description: "Experienced Software Engineer with expertise in MERN and .NET Core",
+  keywords: "Software Engineer, Full-Stack Engineer, Frontend Developer ,JS, C#, CSharp, React, Node.js, portfolio",
+  author: "Abdul Rehman",
   robots: "index, follow",
 };
 
