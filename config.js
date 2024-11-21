@@ -17,33 +17,35 @@ export const config = {
   projects: [
     {
       id: 1,
-      title: "Surveillance System",
+      title: "Laboratory Management System",
       description:
-        "The Surveillance System processes RTSP streams and applies advanced features such as object detection, motion detection, line intrusion, and more. It ensures comprehensive monitoring with intelligent analysis capabilities.",
+        "This client management system provides the automated way to book appointments, get reports, calculate revenue and many other features. It comes with Admin Dashboard to present better user experience.",
       image: "/projects/portfolio-app.png",
-      technologies: ["OpenCV", "NumPy", "Yolo", "DeepSORT"],
+      technologies: ["React", "MongoDB", "NODE", "Express"],
     },
     {
       id: 2,
-      title: "Virtual Makeup",
+      title: "Univerity Process Automation",
       description:
         "Developed a virtual makeup application using TensorFlow.js to precisely extract facial landmarks and apply makeup, including lipstick, concealers, foundation, and more.",
       image: "/projects/code-share-app.png",
-      technologies: ["OpenCV", "TensorFlow.js", "JavaScript"],
+      technologies: ["React", "MongoDB", "NODE", "Express"],
     },
     {
       id: 3,
-      title: "Fish Species Detection",
-      description: "Trained a model to detect different Species of fish on boat deck ",
+      title: "AI Survillance System",
+      description:
+        "Developed a large scale product that provide AI Security survillance. Optimized the API calls from Frontend and reduced real time notification delay fron backend ",
       image: "/projects/wytra-bot-app.png",
-      technologies: ["Python", "Object Detection", "Yolo", "Roboflow"],
+      technologies: ["React", "MongoDB", "NODE", "Express"],
     },
     {
       id: 4,
-      title: "Multiple Choice Questions Checking Application",
-      description: "An application that takes image of MCQ sheet and check the number of correctly marked questions.",
+      title: "Campus Management System",
+      description:
+        "Developed a Campus 360 Application for Government College University Lahore to automate their management process including student clearance, Fee management, Hostle management, committee constitution and Student and Staff Search.",
       image: "/projects/code-share-app.png",
-      technologies: ["Python", "OpenCV", "Jupyter Notebook"],
+      technologies: ["React", "MongoDB", "NODE", "Express"],
     },
   ],
   skills: [
@@ -79,20 +81,49 @@ export const config = {
       ],
     },
   ],
+  experience: [
+    {
+      companyName: "Deutics Global",
+      location: "Lahore, Pakistan",
+      companyDescription: "A comapny that provides Security Survilance through integrated AI Features",
+      accomplishments: [
+        "Leveraging the power of React.js for delivering feature rich web applications",
+        "Identifying and fixing bugs and performance bottlenecks",
+        "Contributing to the design and Integration of APIs, and other backend functionalities that interact with the frontend",
+        "•Maintaining data integrity and scalability with MS SQL and MongoDB",
+      ],
+      jobTitle: "Software Engineer",
+      fromDate: "Sep, 2023",
+      toDate: "present",
+    },
+    {
+      companyName: "DIT GCU",
+      location: "Lahore, Pakistan",
+      companyDescription:
+        "The IT Department of Goverment College Univeristy that takes care of LMS and Campus Management System",
+      accomplishments: [
+        "Developed and maintained university software applications, using Node Js, Express.js, and React.Js contributing to the enhancement of campus-wide systems",
+        "Collaborated with a multidisciplinary team to design and implement features, ensuring functionality met the requirements of various departments",
+        "Collaborated with team members to ensure seamless integration of software components and adherence to coding standards",
+        "•Actively participated in agile development processes, attending sprint planning meetings, and contributing to the completion of project milestones",
+      ],
+      jobTitle: "Frontend Developer",
+      fromDate: "Feb, 2023",
+      toDate: "Aug, 2023",
+    },
+  ],
   contactInfo: [
     {
       icon: <FaGithub className="w-5 h-5" />,
       label: "GitHub",
-      value: "@awahabmalik",
+      value: "@AbdulRehman0094",
       // link: `https://www.github.com/awahabmalik`,
       link: `https://www.github.com/AbdulRehman0094`,
     },
     {
       icon: <HiMail className="w-5 h-5" />,
       label: "Email",
-      // value: "abdulwahabmalik999@gmail.com",
       value: "abdlrhmnashfaq@gmail.com",
-      // link: "mailto:abdulwahabmalik999@gmail.com",
       link: "mailto:abdlrhmnashfaq@gmail.com",
     },
   ],
