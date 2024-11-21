@@ -67,7 +67,7 @@ const HeroSection = () => {
                 Hi, I'm {config.developer.name}
               </motion.span>
               <motion.span variants={textAnimation} className="block text-white/60 text-2xl md:text-4xl">
-                I am a data scientist who builds models that learn and predict.{" "}
+                I am a Full Stack Engineer contributing in many Large-scale Applications.{" "}
               </motion.span>
             </motion.h1>
           </div>
@@ -76,8 +76,8 @@ const HeroSection = () => {
             variants={itemAnimation}
             className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto"
           >
-            With expertise in machine learning, computer vision, and data-driven solutions, I focus on transforming data
-            into meaningful insights and impactful predictions.
+            With expertise in MERN Stack, .NET, Reactjs, NEXTjs and Blockchain, I focus on delivering scalable and
+            efficient products.
           </motion.p>
 
           <motion.div variants={itemAnimation} className="flex flex-wrap gap-4 justify-center pt-6">

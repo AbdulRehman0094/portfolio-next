@@ -3,6 +3,7 @@ import { HiCode, HiCube, HiDatabase, HiMail } from "react-icons/hi";
 
 export const config = {
   developer: {
+    // name: "Abdul Wahab Malik",
     name: "Abdul Rehman",
   },
   social: {
@@ -48,18 +49,18 @@ export const config = {
   ],
   skills: [
     {
-      title: "Full Stack Development",
+      title: "Computer Vision",
       icon: <HiCode />,
       description: "Modern web interfaces",
       bgClass: "bg-blue-500/10",
       iconClass: "text-blue-500",
       skills: [
-        { name: "MERN", level: "Intermediate" },
-        { name: "React", level: "Advanced" },
-        { name: "NEXT", level: "Expert" },
-        { name: ".NET Core", level: "Expert" },
-        { name: "Block-chain", level: "Beginner" },
-        { name: "RTSP/HLS Streaming", level: "Begineer" },
+        { name: "OpenCV", level: "Intermediate" },
+        { name: "PyTorch", level: "Advanced" },
+        { name: "Object Detection & Tracking", level: "Expert" },
+        { name: "Object Segmentation", level: "Expert" },
+        { name: "Data Annotation", level: "Expert" },
+        { name: "RTSP/HLS Streaming", level: "Advanced" },
       ],
     },
     {
@@ -70,8 +71,6 @@ export const config = {
       iconClass: "text-orange-500",
       skills: [
         { name: "Git", level: "Advanced" },
-        { name: "Visual Studio Code", level: "Advanced" },
-        { name: "Postman", level: "Advanced" },
         { name: "Amazon Web Services", level: "Intermediate" },
         { name: "DigitalOcean", level: "Intermediate" },
         { name: "Adobe Photoshop", level: "Intermediate" },
